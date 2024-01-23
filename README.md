@@ -24,32 +24,55 @@ npm install
 Open the .env file and update the MONGODB_URI with the connection string for your MongoDB instance.
 
 **Run the application:**
+
 bash
+
 Copy code
+
 npm start
+
 The server will start on http://localhost:5000.
+
 **
 🌟 Features
-Project Structure**
+
+Project Structure
+**
+
 src/: Contains the source code.
+
     config/: Configuration files.
+    
     constants/: Application constant files.
+    
     controllers/: API controllers.
+    
     models/: MongoDB data models.
+    
     dataAccess/repositories/: Generic repository for database operations.
+    
     services/: Application business logic files.
+    
     routes/: Express routes.
+    
     utils/: Application reusable components/function files.
+    
     app.ts: Main application file.
+    
     server.ts: Main server file
+    
     swagger.ts: swagger configuration file
+    
     package.json: Node.js package configuration.
+    
     tsconfig.json: typescript configuration file.
     
 **API Endpoints**
+
 Access API document with following url http://localhost:5000/api-docs/
 
 **🤝 Contributing**
+
 We welcome contributions! Feel free to open issues or submit pull requests to enhance this project.
 
 
