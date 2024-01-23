@@ -15,12 +15,14 @@ Clone the repository:
   git clone https://github.com/balajimasal/node-mongodb-generic-repository.git
   
 Install dependencies:
+
 bash
-Copy code
 cd node-mongodb-generic-repository
+
 npm install
 
 **Configure MongoDB connection:**
+
 Open the .env file and update the MONGODB_URI with the connection string for your MongoDB instance.
 
 **Run the application:**
