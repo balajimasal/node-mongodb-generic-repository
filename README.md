@@ -13,6 +13,7 @@ Before you begin, ensure you have the following installed on your machine:
 Clone the repository:
   bash
   git clone https://github.com/balajimasal/node-mongodb-generic-repository.git
+  
 Install dependencies:
 bash
 Copy code
@@ -27,53 +28,28 @@ bash
 Copy code
 npm start
 The server will start on http://localhost:5000.
-
+**
 🌟 Features
-Project Structure
+Project Structure**
 src/: Contains the source code.
     config/: Configuration files.
+    constants/: Application constant files.
     controllers/: API controllers.
     models/: MongoDB data models.
-    repositories/: Generic repository for database operations.
+    dataAccess/repositories/: Generic repository for database operations.
+    services/: Application business logic files.
     routes/: Express routes.
+    utils/: Application reusable components/function files.
     app.ts: Main application file.
-    test/: Contains test files.
+    server.ts: Main server file
+    swagger.ts: swagger configuration file
     package.json: Node.js package configuration.
+    tsconfig.json: typescript configuration file.
     
-API Endpoints
-A powerful and reusable approach to interact with the MongoDB database.
-Structured Project Layout:
+**API Endpoints**
+Access API document with following url http://localhost:5000/api-docs/
 
-Organized project structure for clarity and maintainability.
-API Endpoints:
-
-POST /api/user:
-Add a new user.
-Request Body:
-json
-Copy code
-{
-  "firstName": "John",
-  "lastName": "Doe",
-  "email": "john.doe@example.com",
-  "phoneNumber": "+1234567890"
-}
-Response:
-json
-Copy code
-{
-  "status": "success",
-  "message": "User added successfully",
-  "data": {
-    "id": "user-id",
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@example.com",
-    "phoneNumber": "+1234567890"
-  }
-}
-
-🤝 Contributing
+**🤝 Contributing**
 We welcome contributions! Feel free to open issues or submit pull requests to enhance this project.
 
 
